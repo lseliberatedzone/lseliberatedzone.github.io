@@ -10,9 +10,9 @@ On May 14th, the eve of the 76th anniversary of the Nakba, we started out encamp
 ---
 
 <h2 style="text-align: center;">CAMP STATEMENTS</h2>
-<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_22_May_2024.pdf" target="_blank"><strong style="color: black;">LSE Liberated Zone Statement 22 May</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_22_May_2024.pdf" target="_blank"><strong style="color: black;">Statement 22 May</strong></a></button>
 
-<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_27_May_2024.pdf" target="_blank"><strong style="color: black;">LSE Liberated Zone Statement 27 May</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_27_May_2024.pdf" target="_blank"><strong style="color: black;">Statement 27 May</strong></a></button>
 
 ---
 <h2 style="text-align: center;">OUR DEMANDS</h2>
