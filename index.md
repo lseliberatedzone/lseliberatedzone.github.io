@@ -14,7 +14,7 @@ On May 14th, the eve of the 76th anniversary of the Nakba, we started out encamp
 
 ---
 
-<h2 style="text-align: center;">ASSETS IN APARTHEID REPORT</h2>
+<h2 style="text-align: center;">OUR DEMANDS</h2>
 
 <button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/LSESUPALESTINE-Assets-in-Apartheid-2024-Web.pdf" target="_blank"><strong style="color: black;">Read our divestment report</strong></a></button>
 
