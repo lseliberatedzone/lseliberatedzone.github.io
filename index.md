@@ -54,8 +54,7 @@ This browser does not support PDFs. Please download the PDF to view it:
 <style>
     .carousel {
         position: relative;
-        width: 100%;
-        max-width: 600px; /* Adjust this value to your image width */
+        width: 210px;
         margin: auto;
         overflow: hidden;
     }
@@ -63,12 +62,13 @@ This browser does not support PDFs. Please download the PDF to view it:
     .carousel-container {
         display: flex;
         transition: transform 0.5s ease-in-out;
+        width: 2100px; /* 210px * 10 images */
     }
 
     .carousel-slide {
         flex-shrink: 0;
-        width: 600px; /* Adjust this value to your image width */
-        height: 600px; /* Adjust this value to your image height */
+        width: 210px;
+        height: 210px;
         border: none; /* Remove iframe borders */
     }
 
@@ -99,6 +99,6 @@ This browser does not support PDFs. Please download the PDF to view it:
     function moveSlide(n) {
         const slides = document.querySelectorAll('.carousel-slide');
         slideIndex = (slideIndex + n + slides.length) % slides.length;
-        document.querySelector('.carousel-container').style.transform = `translateX(${-slideIndex * 600}px)`; // Adjust this value to your image width
+        document.querySelector('.carousel-container').style.transform = `translateX(${-slideIndex * 210}px)`; // Adjust this value to your image width
     }
 </script>
