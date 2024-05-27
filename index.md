@@ -89,6 +89,7 @@ On May 14th, the eve of the 76th anniversary of the Nakba, we started out encamp
 </script>
 
 ---
+---
 
 <h2 style="text-align: center;">CAMP STATEMENTS</h2>
 
