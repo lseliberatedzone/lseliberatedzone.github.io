@@ -55,7 +55,7 @@ This browser does not support PDFs. Please download the PDF to view it:
     .carousel {
         position: relative;
         width: 100%;
-        max-width: 100%;
+        max-width: 600px; /* Adjust this value to your image width */
         margin: auto;
         overflow: hidden;
     }
@@ -63,13 +63,12 @@ This browser does not support PDFs. Please download the PDF to view it:
     .carousel-container {
         display: flex;
         transition: transform 0.5s ease-in-out;
-        width: 10000%; /* Ensures container is wide enough for all iframes */
     }
 
     .carousel-slide {
         flex-shrink: 0;
-        width: auto; /* Allows iframe to take its content's width */
-        height: auto; /* Allows iframe to take its content's height */
+        width: 600px; /* Adjust this value to your image width */
+        height: 600px; /* Adjust this value to your image height */
         border: none; /* Remove iframe borders */
     }
 
@@ -100,15 +99,6 @@ This browser does not support PDFs. Please download the PDF to view it:
     function moveSlide(n) {
         const slides = document.querySelectorAll('.carousel-slide');
         slideIndex = (slideIndex + n + slides.length) % slides.length;
-        document.querySelector('.carousel-container').style.transform = `translateX(${-slideIndex * 100}%)`;
+        document.querySelector('.carousel-container').style.transform = `translateX(${-slideIndex * 600}px)`; // Adjust this value to your image width
     }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        const iframes = document.querySelectorAll('.carousel-slide');
-        iframes.forEach(iframe => {
-            iframe.onload = () => {
-                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-            };
-        });
-    });
 </script>
