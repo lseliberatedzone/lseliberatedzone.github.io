@@ -4,7 +4,7 @@ layout: default
 
 <h1 style="text-align: center;">LSE LIBERATED ZONE</h1>
 
-On May 14th, the eve of the 76th anniversary of the Nakba, we started out encampment for Palestine. We are currentely occupying the the ground floor of the London School of Economics' (LSE) Bloom Building (formerly the Marshall Building), in ongoing protest at the university's financial complicity in the genocide of the Palestinian people. Central amongst the our demands is the issue of divestment. In line with LSESU Palestine Society's 116-page 'Assests in Apartheid Report' we call on the university to divest its £89 million worth of investments in crimes Against the Palestinian people, the arms trade, fossil fuels, and the financing of such egregious activities.
+On May 14th, the eve of the 76th anniversary of the Nakba, we started out encampment for Palestine. We are currentely occupying the the ground floor of the London School of Economics' (LSE) Bloom Building (formerly the Marshall Building), in ongoing protest at the university's financial complicity in the genocide of the Palestinian people. Central amongst our demands is the issue of divestment. In line with LSESU Palestine Society's 116-page 'Assests in Apartheid Report' we call on the university to divest its £89 million worth of investments in crimes Against the Palestinian people, the arms trade, fossil fuels, and the financing of such egregious activities.
 
 
 ---
