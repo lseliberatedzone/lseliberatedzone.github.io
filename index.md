@@ -2,17 +2,15 @@
 layout: default
 ---
 
-<h1 style="text-align: center;">LSESU PALESTINE SOCIETY</h1>
+<h1 style="text-align: center;">LSE LIBERATED ZONE</h1>
 
-The LSESU Palestine Society is committed to providing an uplifting space for all interested in the cause for Palestinian liberation. Our events aim to engage with and celebrate Palestinian history and culture, broadening our knowledge of Palestine as well as bringing together the diverse experiences and perspectives of Palestinians around the world. We hope to build a caring community where we can collectively imagine and work towards a free Palestine.
+On May 14th, the eve of the 76th anniversary of the Nakba, we started out encampment for Palestine. We are currentely occupying the the ground floor of the London School of Economics' (LSE) Bloom Building (formerly the Marshall Building), in ongoing protest at the university's financial complicity in the genocide of the Palestinian people. Central amongst the our demands is the issue of divestment. In line with LSESU Palestine Society's 116-page 'Assests in Apartheid Report' we call on the university to divest its £89 million worth of investments in crimes Against the Palestinian people, the arms trade, fossil fuels, and the financing of such egregious activities.
 
 ---
 
 <h2 style="text-align: center;">EVENTS</h2>
 
-![Event Image 1]({{ '/assets/img/assembly.jpg' | relative_url }} "Event Image 1")
-
-![Event Image 2]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 2")
+![Event Image 1]({{ '/assets/img/event.jpg' | relative_url }} "Event Image 1")
 
 ---
 
