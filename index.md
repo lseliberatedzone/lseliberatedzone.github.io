@@ -79,3 +79,9 @@ This browser does not support PDFs. Please download the PDF to view it:
         showSlide(currentIndex);
     }
 
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+
+    document.addEventListener('DOMContentLoaded', () => {
+        showSlide(currentIndex);
+    });
+</script>
