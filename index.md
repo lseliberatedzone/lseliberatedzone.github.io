@@ -26,49 +26,56 @@ This browser does not support PDFs. Please download the PDF to view it:
 ---
 <h2 style="text-align: center;">OUR DEMANDS</h2>
 
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/1.PNG" alt="Slide 1"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/2.PNG" alt="Slide 2"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/3.PNG" alt="Slide 3"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/4.PNG" alt="Slide 4"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/5.PNG" alt="Slide 5"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/6.PNG" alt="Slide 6"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/7.PNG" alt="Slide 7"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/8.PNG" alt="Slide 8"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/9.PNG" alt="Slide 9"></div>
-        <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/10.PNG" alt="Slide 10"></div>
-    </div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-pagination"></div>
+<div class="slider">
+    <iframe src="https://lseliberatedzone.github.io/document/1.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/2.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/3.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/4.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/5.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/6.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/7.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/8.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/9.PNG" class="slide"></iframe>
+    <iframe src="https://lseliberatedzone.github.io/document/10.PNG" class="slide"></iframe>
 </div>
 
-<!-- Link Swiper's CSS -->
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 <style>
-    .swiper-container {
+    .slider {
+        position: relative;
         width: 100%;
         height: 600px;
+        overflow: hidden;
     }
-    .swiper-slide img {
+
+    .slide {
+        position: absolute;
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        transition: opacity 1s ease-in-out;
+        opacity: 0;
+        border: none; /* Remove iframe borders */
+    }
+
+    .slide.active {
+        opacity: 1;
     }
 </style>
 
-<!-- Link Swiper's JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-</script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            if (i === index) {
+                slide.classList.add('active');
+            }
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    }
+
