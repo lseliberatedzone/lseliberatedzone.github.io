@@ -54,16 +54,16 @@ This browser does not support PDFs. Please download the PDF to view it:
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/1.png" alt="Slide 1"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/2.png" alt="Slide 2"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/3.png" alt="Slide 3"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/4.png" alt="Slide 4"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/5.png" alt="Slide 5"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/6.png" alt="Slide 6"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/7.png" alt="Slide 7"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/8.png" alt="Slide 8"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/9.png" alt="Slide 9"></div>
-            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/10.png" alt="Slide 10"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/1.PNG" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/2.PNG" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/3.PNG" alt="Slide 3"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/4.PNG" alt="Slide 4"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/5.PNG" alt="Slide 5"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/6.PNG" alt="Slide 6"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/7.PNG" alt="Slide 7"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/8.PNG" alt="Slide 8"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/9.PNG" alt="Slide 9"></div>
+            <div class="swiper-slide"><img src="https://lseliberatedzone.github.io/document/10.PNG" alt="Slide 10"></div>
         </div>
         <!-- If you want navigation buttons -->
         <div class="swiper-button-prev"></div>
