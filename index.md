@@ -100,3 +100,6 @@ Stay up-to-date with LSE liberated zone statements:
 <button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_27_May_2024.pdf" target="_blank"><strong style="color: black;">Statement 27 May</strong></a></button>
 
 
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_27_May_2024_firesafety.pdf
+" target="_blank"><strong style="color: black;">Statement 27 May - Fire Safety</strong></a></button>
+
