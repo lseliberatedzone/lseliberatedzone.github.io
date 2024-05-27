@@ -26,62 +26,70 @@ This browser does not support PDFs. Please download the PDF to view it:
 ---
 <h2 style="text-align: center;">OUR DEMANDS</h2>
 
-<div class="slider">
-    <iframe src="https://lseliberatedzone.github.io/document/1.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/2.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/3.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/4.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/5.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/6.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/7.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/8.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/9.PNG" class="slide"></iframe>
-    <iframe src="https://lseliberatedzone.github.io/document/10.PNG" class="slide"></iframe>
+<div class="carousel">
+    <button class="prev" onclick="moveSlide(-1)">❮</button>
+    <div class="carousel-container">
+        <iframe src="https://lseliberatedzone.github.io/document/1.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/2.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/3.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/4.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/5.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/6.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/7.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/8.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/9.PNG" class="carousel-slide"></iframe>
+        <iframe src="https://lseliberatedzone.github.io/document/10.PNG" class="carousel-slide"></iframe>
+    </div>
+    <button class="next" onclick="moveSlide(1)">❯</button>
 </div>
 
 <style>
-    .slider {
+    .carousel {
         position: relative;
         width: 100%;
-        height: 600px;
+        max-width: 800px;
+        margin: auto;
         overflow: hidden;
     }
 
-    .slide {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        transition: opacity 1s ease-in-out;
-        opacity: 0;
+    .carousel-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-slide {
+        min-width: 100%;
+        height: 600px;
         border: none; /* Remove iframe borders */
     }
 
-    .slide.active {
-        opacity: 1;
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
     }
 </style>
 
 <script>
-    let currentIndex = 0;
-    const slides = document.querySelectorAll('.slide');
+    let slideIndex = 0;
 
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.classList.remove('active');
-            if (i === index) {
-                slide.classList.add('active');
-            }
-        });
+    function moveSlide(n) {
+        const slides = document.querySelectorAll('.carousel-slide');
+        slideIndex = (slideIndex + n + slides.length) % slides.length;
+        document.querySelector('.carousel-container').style.transform = `translateX(${-slideIndex * 100}%)`;
     }
-
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % slides.length;
-        showSlide(currentIndex);
-    }
-
-    setInterval(nextSlide, 3000); // Change slide every 3 seconds
-
-    document.addEventListener('DOMContentLoaded', () => {
-        showSlide(currentIndex);
-    });
 </script>
