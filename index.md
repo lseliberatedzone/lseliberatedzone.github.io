@@ -16,10 +16,10 @@ On May 14th, the eve of the 76th anniversary of the Nakba, we started out encamp
 
 <h2 style="text-align: center;">OUR DEMANDS</h2>
 
-<button style="display: block; margin: 0 auto;"><a href="https://lsepalestine.github.io/documents/LSESUPALESTINE-Assets-in-Apartheid-2024-Web.pdf" target="_blank"><strong style="color: black;">Read our divestment report</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/demands.pdf" target="_blank"><strong style="color: black;">Read our divestment report</strong></a></button>
 
-<iframe src="https://lsepalestine.github.io/documents/LSESUPALESTINE-Assets-in-Apartheid-2024-Web.pdf" width="100%" height="600px">
+<iframe src="https://lseliberatedzone.github.io/document/demands.pdf" width="100%" height="600px">
 This browser does not support PDFs. Please download the PDF to view it: 
-<a href="https://lsepalestine.github.io/documents/LSESUPALESTINE-Assets-in-Apartheid-2024-Web.pdf">Download PDF</a>.
+<a href="https://lseliberatedzone.github.io/document/demands.pdf">Download PDF</a>.
 </iframe>
 
