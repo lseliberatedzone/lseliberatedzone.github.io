@@ -93,7 +93,7 @@ On May 14th, the eve of the 76th anniversary of the Nakba, we started out encamp
 
 <h2 style="text-align: center;">CAMP STATEMENTS</h2>
 
-Stay up-to-date with our statements:
+Stay up-to-date with LSE liberated zone statements:
 
 <button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_22_May_2024.pdf" target="_blank"><strong style="color: black;">Statement 22 May</strong></a></button>
 
