@@ -118,5 +118,12 @@ Stay up-to-date with LSE liberated zone statements:
 
 <button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/EmailResponse_LSE_Encampment_6_June_2024.pdf" target="_blank"><strong style="color: black;">Email Response 6 June</strong></a></button>
 
-<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_9_June_2024.doc.pdf" target="_blank"><strong style="color: black;">Statement 9 June</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_8_June_2024.pdf" target="_blank"><strong style="color: black;">Statement 8 June</strong></a></button>
 
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_9_June_2024.doc.pdf" target="_blank"><strong style="color: black;">Statement 9 June - Fire Safety</strong></a></button>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_11_June_2024.pdf" target="_blank"><strong style="color: black;">Statement 11 June</strong></a></button>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_15_June_2024.pdf" target="_blank"><strong style="color: black;">Statement 15 June</strong></a></button>
+
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_19_June_2024.pdf" target="_blank"><strong style="color: black;">Statement 19 June</strong></a></button>
