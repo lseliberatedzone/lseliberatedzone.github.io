@@ -129,3 +129,6 @@ Stay up-to-date with LSE liberated zone statements:
 <button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Statement_LSE_Encampment_19_June_2024.pdf" target="_blank"><strong style="color: black;">Statement 19 June</strong></a></button>
 
 <button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/Dissertation-Statement.pdf" target="_blank"><strong style="color: black;">Dissertation Statement 13 Aug</strong></a></button>
+
+Read LSE's 'Community Updates':
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/LSECommunityUpdates.pdf" target="_blank"><strong style="color: black;">Dissertation Statement 13 Aug</strong></a></button>
