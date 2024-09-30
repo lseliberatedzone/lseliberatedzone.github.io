@@ -132,4 +132,4 @@ Stay up-to-date with LSE liberated zone statements:
 
 Read LSE's 'Community Updates':
 
-<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/LSECommunityUpdates.pdf" target="_blank"><strong style="color: black;">Community Updates</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/LSECommunityUpdates.pdf" target="_blank"><strong style="color: black;">LSE Community Updates</strong></a></button>
