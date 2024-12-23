@@ -140,5 +140,5 @@ Read LSE's 'Community Updates':
 
 LSE Graduation
 
-<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/ONLINE lse grad brochure.pdf" target="_blank"><strong style="color: black;">LSE 27 March School Email</strong></a></button>
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/ONLINE_lse_grad_brochure.pdf" target="_blank"><strong style="color: black;">Brochure December 2024</strong></a></button>
 
