@@ -144,5 +144,5 @@ LSE Graduation
 
 LSESU Election 2025
 
-Q<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/QUESTIONS_FOR_LSESU LEADERSHIP_RACE_CANDIDATES.pdf" target="_blank"><strong style="color: black;">Questions for Candidates</strong></a></button> 
+<button style="display: block; margin: 0 auto;"><a href="https://lseliberatedzone.github.io/document/QUESTIONS_FOR_LSESU LEADERSHIP_RACE_CANDIDATES.pdf" target="_blank"><strong style="color: black;">Questions for Candidates</strong></a></button> 
 
